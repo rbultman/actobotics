@@ -40,3 +40,5 @@ module channel_side() {
          }
    }
 }
+$fs=0.01;
+channel_side();

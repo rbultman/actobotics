@@ -29,8 +29,8 @@ module channel_mid_side() {
       translate([0.75-0.956/2,0.75+0.544/2,-hole_extension]) cylinder(h=hole_height, r=0.07);
       translate([0.75+0.956/2,0.75+0.544/2,-hole_extension]) cylinder(h=hole_height, r=0.07);
       // more holes - the 0.77 hub holes
-      translate([0.75-0.77/2,0.75,-hole_extension]) cylinder(h=hole_height, r=0.07);
-      translate([0.75+0.77/2,0.75,-hole_extension]) cylinder(h=hole_height, r=0.07);
+      translate([0.75-0.77/2,0.75,-hole_extension]) cylinder(h=hole_height, r=0.08);
+      translate([0.75+0.77/2,0.75,-hole_extension]) cylinder(h=hole_height, r=0.08);
       translate([0.75,0.75-0.77/2,-hole_extension]) cylinder(h=hole_height, r=0.07);
       translate([0.75,0.75+0.77/2,-hole_extension]) cylinder(h=hole_height, r=0.07);
       // The end 0.77 hub holes

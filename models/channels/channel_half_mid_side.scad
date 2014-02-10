@@ -21,12 +21,12 @@ module channel_half_mid_side() {
       translate([0.75-0.956/2,0.75-0.544/2,-hole_extension]) cylinder(h=hole_height, r=0.07);
       translate([0.75-0.956/2,0.75+0.544/2,-hole_extension]) cylinder(h=hole_height, r=0.07);
       // more holes - the 0.77 hub holes
-      translate([0.75-0.77/2,0.75,-hole_extension]) cylinder(h=hole_height, r=0.07);
       translate([0.75,0.75-0.77/2,-hole_extension]) cylinder(h=hole_height, r=0.07);
       translate([0.75,0.75+0.77/2,-hole_extension]) cylinder(h=hole_height, r=0.07);
       // more holes - the 0,77 holes at the end
       translate([0,0.75-0.77/2,-hole_extension]) cylinder(h=hole_height, r=0.07);
       translate([0,0.75+0.77/2,-hole_extension]) cylinder(h=hole_height, r=0.07);
+      translate([0.75-0.77/2,0.75,-hole_extension]) cylinder(h=hole_height, r=0.08);
       // more holes - the 0.77 hub holes
       translate([0.75,0.75,0])
          rotate(a=45, v=[0,0,1]) {
