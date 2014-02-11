@@ -7,6 +7,3 @@ module channel_half_mid() {
       translate([0,1.5,0]) rotate(a=90, v=[1,0,0]) channel_half_mid_side();
    }
 }
-
-$fs=0.01;
-channel_half_mid();

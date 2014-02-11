@@ -5,6 +5,7 @@ module channel_half_mid_side() {
    face_depth=0.09;
    hole_extension=0.1;
    hole_height=face_depth+2*hole_extension;
+   render() {
    difference() {
       // the face
       cube(size=[0.75,1.5,face_depth]);
@@ -34,7 +35,6 @@ module channel_half_mid_side() {
             translate([0,0.77/2,-hole_extension]) cylinder(h=hole_height, r=0.07);
          }
    }
+   }
 }
-$fs=0.01;
-channel_half_mid_side();
 

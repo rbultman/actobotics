@@ -11,5 +11,3 @@ module channel_3p0() {
       translate([3.0,1.5,0]) rotate(a=180, v=[0,0,1]) channel_end();
    }
 }
-$fs=0.01;
-channel_3p0();

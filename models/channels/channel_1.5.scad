@@ -6,5 +6,3 @@ module channel_1p5() {
       translate([1.5,1.5,0]) rotate(a=180, v=[0,0,1]) channel_end();
    }
 }
-$fs=0.01;
-channel_1p5();

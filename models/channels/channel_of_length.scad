@@ -25,6 +25,3 @@ module channel_of_length(length) {
       translate([length,1.5,0]) rotate(a=180, v=[0,0,1]) channel_end();
    }
 }
-$fs=0.01;
-channel_of_length(12);
-color("Red") translate([12.0,0,0]) cube(size=[0.1,2,2]);
