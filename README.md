@@ -1,4 +1,4 @@
 actobotics
 ==========
 
-OpenSCAD models for the Actobotics parts
+OpenSCAD and SketchUp models for the Actobotics parts
